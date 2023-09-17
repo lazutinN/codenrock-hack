@@ -1,0 +1,6 @@
+.venv*
+/data/*
+/src/test.py
+/src/utils.py
+.DS_Store
+DS_preparatuin.ipynb
