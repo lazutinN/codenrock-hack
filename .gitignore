@@ -4,3 +4,4 @@
 /src/utils.py
 .DS_Store
 DS_preparatuin.ipynb
+rest/__pycache__

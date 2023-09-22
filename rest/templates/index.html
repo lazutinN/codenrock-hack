@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+    <!--<link rel="stylesheet" href="rest/static/css/styles.css">-->
+    <title>Upload</title>
+</head>
+<style>
+</style>
+<body>
+    <div class="drag-drop" id="drag-drop">
+        drag and drop the dataset here
+    </div>
+    <div class="manualInput" id="'manualInput">
+        or manually input the dataset
+    <input type="file" id="fileInput" multiple>
+    </div>
+</body>
+</html>
