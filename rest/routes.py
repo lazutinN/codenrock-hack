@@ -30,7 +30,7 @@ def hellopage(request: Request):
 
 def uploadFile(file: UploadFile(...)):
      file_location = f"rest/data/downloaded/{file.filename}"
-     # Save the uploaded file 
+
      with open(file_location, "wb+") as file_object:
         file_object.write(file.file.read())    
         return RedirectResponse(url="/status", status_code=HTTP_303_SEE_OTHER)
